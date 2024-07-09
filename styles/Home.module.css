@@ -1,0 +1,109 @@
+#everything {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.resumeImage {
+  position: relative;
+  right: 2.5vw;
+  height: 99vh;
+}
+
+.resume {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  /* border: 2px solid white; */
+}
+
+.closeButtonResume {
+  z-index: 1;
+  position: relative;
+  left: 2.5vw;
+  height: 5vh;
+  width: 5vw;
+}
+
+#myName {
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: Tangerine;
+  background: linear-gradient(to right, teal, rgba(218, 31, 31, 0));
+  margin: 0 0 0 0;
+}
+
+#resumeButton {
+  margin-right: 10px;
+}
+
+#imageAndInfo {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#workExperience {
+  background-color: rgba(255,255,255, 0.8);
+}
+
+#educationInfo {
+  background-color: rgba(255,255,255, 0.8);
+}
+
+#smilesJpg {
+  display: flex;
+  margin: auto;
+  width: fit-content;
+}
+
+.imageSmile {
+  width: fit-content;
+}
+
+.typingEffect {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4s steps(40, end);
+  animation-fill-mode: forwards;
+  width: fit-content;
+}
+
+.socialIcons > a > i {
+  padding: 15px;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+@keyframes typing {
+  from { width: 0px; }
+  to { width: 100% }
+}
+
+.text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+
+#footerId {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#findmeAt {
+  margin: auto;
+  width: fit-content;
+  /* border: 2px solid red; */
+}
+
+.backgroundThanks {
+  width: fit-content;
+  /* border: 2px solid red; */
+  cursor: pointer;
+}
+
+.socialIcons {
+}
